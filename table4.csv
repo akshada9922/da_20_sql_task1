@@ -1,0 +1,74 @@
+CREATE TABLE gym (
+    date DATE,
+    weight NUMERIC,
+    meals_eaten INTEGER,
+    calories INTEGER,
+    workout_done BOOLEAN,
+    type_of_workout VARCHAR(100),
+    water_intake NUMERIC,
+    notes TEXT
+);
+
+INSERT INTO gym (
+    date,
+    weight,
+    meals_eaten,
+    calories,
+    workout_done,
+    type_of_workout,
+    water_intake,
+    notes
+) VALUES (
+    '2025-07-13',
+    72.5,
+    3,
+    2200,
+    true,
+    'Cardio',
+    2.0,
+    'Felt energetic'
+);
+
+select * from gym
+
+DELETE FROM gym
+WHERE date = '2025-07-13'
+  AND weight = 72.5
+  AND meals_eaten = 3
+  AND calories = 2200
+  AND workout_done = true
+  AND type_of_workout = 'Cardio'
+  AND water_intake = 2.0
+  AND notes = 'Felt energetic';
+
+  select * from gym
+
+  COPY gym (
+    date,
+    weight,
+    meals_eaten,
+    calories,
+    workout_done,
+    type_of_workout,
+    water_intake,
+    notes
+)
+FROM 'c:/task_1/gym_data.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY gym (
+    date,
+    weight,
+    meals_eaten,
+    calories,
+    workout_done,
+    type_of_workout,
+    water_intake,
+    notes
+)
+FROM 'c:/task_1/gym_data_clean.csv'
+DELIMITER ','
+CSV HEADER;
+
+select * from gym

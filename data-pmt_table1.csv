@@ -1,0 +1,6 @@
+"id","payment_id","order_id","method","amount_paid","discount","status"
+121,1,1,"credit card",58000,0,"complete"
+122,2,2,"upi",1200,0,"complete"
+123,3,3,"net banking",28500,1500,"pending"
+124,4,4,"upi",7500,0,"complete"
+125,5,5,"cod",0,0,"cancelled"

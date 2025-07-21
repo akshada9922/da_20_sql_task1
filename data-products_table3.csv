@@ -1,0 +1,5 @@
+"product_id","product_name","category","price","stock_quantity","rating"
+101,"laptop","electronics",5500,20,5
+102,"headphones","accessories",1200,100,4
+103,"smartphone","electronics",3000,35,3
+104,"mouse","accessories",500,75,4

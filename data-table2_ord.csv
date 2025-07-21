@@ -1,0 +1,5 @@
+"order_id","customer_name","total_items","total_cost","order_status","delivery_days"
+1,"riya shahu",2,5800,"delivered",3
+2,"priya verma",1,1200,"shipped",5
+3,"ravi patel",1,6000,"pending",7
+4,"neha singh",3,1500,"cancelled",0

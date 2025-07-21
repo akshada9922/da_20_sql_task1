@@ -1,0 +1,11 @@
+"id","name","address","email","contact_no","student_count","establishment_date","dept_count","prof_count"
+1,"ABC College","123 Main Street, Cityville","info@abccollege.edu","123-456-7890",1500,"2001-08-15",10,100
+2,"Silver Oak college","Ahmedabad","admin@sou.ac.in","912-345-6780",2300,"1998-06-10",7,110
+3,"Blue Ridge Institute","Bangalore","contact@bri.in","900-123-4567",800,"2005-01-22",4,55
+4,"Sunrise College","Chennai","support@sunrise.edu","998-877-6655",950,"2010-08-01",6,650
+5,"Crystal Academy","Hyderabad","hello@crystal.ac.in","978-654-3210",670,"2012-12-18",3,40
+6,"Heritage Institute","Delhi","info@heritage.edu","987-701-2345",1500,"1995-03-05",8,95
+7,"Orchid College","Mumbai","office@orchid.edu.in","909-090-9090",1100,"2000-11-09",5,70
+8,"Riverdale University","Jaipur","info@riverdaleuni.ac.in","912-309-8765",1750,"1990-09-20",9,120
+9,"Ocean View College","Kolkata","support@ovcollege.in","981-234-5678",920,"2015-04-14",4,50
+10,"Mountain Hill Institute","Nagpur","contact@mountainhill.org","889-977-6655",1030,"2003-02-28",6,60
